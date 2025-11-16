@@ -1,0 +1,9 @@
+Fonksiyon Tanımlama
+def selam():
+print("selam")
+
+
+deger döndüren metotlar/fonksiyonlar
+def topla(a,b):
+c=a+b
+return c
