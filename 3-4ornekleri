@@ -1,0 +1,12 @@
+x=”sinan”
+type(x) #string ilkerl veri
+x.capitalize()
+
+def topla(deger,deger2):
+print("{}, {} degerlerini alır".format(deger,deger2))
+def topla(parametre):
+print("alınan degerleri: ",parametre)
+topla(5)
+topla(3,5)
+selam()
+selam(“sinan”)
