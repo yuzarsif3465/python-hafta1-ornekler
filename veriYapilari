@@ -1,0 +1,27 @@
+# Veri yapıları 2
+• liste, (list) elemanları değiştirilebilir (mutable)
+• tuple (demet) değiştirilemez (immutable)
+• dictonary (key,value)
+• set (aynı elemanı yazamazsın)
+liste1=[1,3,3,5,4,5,4,"ali","canan"]
+liste1[0] #indis,indexler 0 dan başlar
+len(liste1) #sayma sayıları 1 den başlar
+dir(liste1) #built in functions
+liste2=[1,3,3,5,4,5,4]
+liste2.sort()
+liste2
+liste2[0]=100000 #mutable değişir
+liste2[0]
+liste2
+liste2.pop()
+liste2.append(25)
+liste2.insert(7,"25")
+liste2
+liste2[7]
+demet=("ali","ayşe")
+demet
+len(demet)
+demet[0]
+dir(demet)
+demet.count("ali")#sayma sayıları 1 den
+demet.index("ali")
