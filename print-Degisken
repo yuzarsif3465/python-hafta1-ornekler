@@ -1,0 +1,19 @@
+Print fonksiyonu ve built in function: 1
+print("sinan")
+print("sinan","başarlan","T","B","M",sep='.')
+
+Değişkenler ve built in function:
+a="ali"
+b=5
+type(a)
+type(b)
+# tek yorum satırı,
+“string tanımlama”
+""" çoklu
+Yorum satırı
+“””
+#veri tipleri
+a= 5 type(a) #integer veri tipi
+b=”sinan” #string
+c= 3.5 #float
+d=’k’ #karakter veri tipi
